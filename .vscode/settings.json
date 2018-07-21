@@ -1,0 +1,6 @@
+{
+    "jshint.enable": false,
+    "typescript.validate.enable": false,
+    "tslint.enable": false,
+    "eslint.enable": false
+}
