@@ -6,10 +6,11 @@ class Jumbotron extends Component {
         const styles = {
             containerStyle: {
                 backgroundImage: "url(" + bg + ")",
+                textShadow: '-1px 0 #343B41, 0 1px #343B41, 1px 0 #343B41, 0 -1px #343B41',
                 backgroundSize: 'cover',
                 textAlign: 'Center',
                 padding: '15%',
-                color: 'white'
+                color: '#EBEBEB'
             },
             headerStyle: {
                 fontSize: '300%'
@@ -18,7 +19,7 @@ class Jumbotron extends Component {
                 fontSize: '150%'
             }
         }
-        const { backgroundImage, headerText, subHeaderText } = this.props;
+        const { headerText, subHeaderText } = this.props;
         const { containerStyle, headerStyle, subHeaderStyle } = styles;
         return (
             <div style={containerStyle}>
